@@ -1,0 +1,1062 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comforty - E-commerce</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/svg+xml" href="./Img/Logo Icon.svg">
+  </head>
+  <body>
+    <div class="bg-navy text-white py-2 font-size-sm">
+      <div
+        class="container d-flex justify-content-between align-items-center flex-wrap gap-2 top-bar-inner"
+        style="font-size: 13px; opacity: 0.8"
+      >
+        <div>
+          <i class="bi bi-check2 me-1"></i> Free Shipping On All Orders Over $50
+        </div>
+        <div class="d-flex gap-3 top-bar-links">
+          <span>Eng <i class="bi bi-chevron-down"></i></span>
+          <span class="d-none d-sm-inline">Faqs</span>
+          <span class="d-none d-sm-inline"><i class="bi bi-info-circle me-1"></i> Need Help</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-light py-3 border-bottom">
+      <div class="container d-flex justify-content-between align-items-center flex-wrap header-inner gap-3">
+        <a
+          href="#"
+          class="navbar-brand d-flex align-items-center gap-3 text-dark text-decoration-none fw-bold fs-4"
+        >
+          <i class="bi bi-armchair-fill text-teal fs-3"
+            ><img src="./Img/Logo Icon.svg" alt="logo"
+          /></i>
+
+          <span>Comforty</span>
+        </a>
+
+        <div class="position-relative header-search order-3 order-md-2">
+          <input
+            type="text"
+            class="form-control rounded-4 pe-5"
+            placeholder="Search here..."
+          />
+          <button
+            class="btn border-0 position-absolute end-0 top-50 translate-middle-y text-muted"
+            type="button"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="d-flex align-items-center gap-2 order-2 order-md-3">
+          <a
+            href="#"
+            class="btn btn-white border d-flex align-items-center gap-2 rounded-2 px-3 py-2 text-decoration-none text-dark"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="small fw-semibold d-none d-sm-inline">Cart</span>
+            <span class="badge bg-teal text-white">2</span>
+          </a>
+
+          <a href="#" class="btn btn-light border-0 p-2 text-dark fs-5"
+            ><i class="fa-solid fa-heart"></i
+          ></a>
+          <a href="#" class="btn btn-light border-0 p-2 text-dark fs-5"
+            ><i class="fa-solid fa-user"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-white py-3 border-bottom">
+      <div class="container d-flex justify-content-between align-items-center flex-wrap gap-3">
+        <div class="d-flex align-items-center gap-4 flex-wrap main-nav-left">
+          <button
+            class="btn border rounded-2 d-flex align-items-center gap-3 px-3 py-2 bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainCategoryNav"
+            aria-expanded="false"
+            aria-controls="mainCategoryNav"
+          >
+            <i class="fa-solid fa-bars"></i>
+            <span class="fw-semibold small">All Categories</span>
+          </button>
+
+          <div class="collapse navbar-collapse flex-grow-0" id="mainCategoryNav">
+            <div class="d-flex flex-column flex-md-row gap-2 gap-md-4 nav-links-list">
+              <a href="#" class="text-teal text-decoration-none fw-semibold"
+                >Home</a
+              >
+              <a href="#" class="text-secondary text-decoration-none fw-semibold"
+                >Shop</a
+              >
+              <a href="#" class="text-secondary text-decoration-none fw-semibold"
+                >Product</a
+              >
+              <a href="#" class="text-secondary text-decoration-none fw-semibold"
+                >Pages</a
+              >
+              <a href="#" class="text-secondary text-decoration-none fw-semibold"
+                >About</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="d-none d-lg-block text-secondary small">
+          Contact: <span class="text-dark fw-bold me-1">(+20) 1277178371 </span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div
+        class="bg-hero rounded-5 position-relative p-4 p-lg-5 overflow-hidden"
+      >
+        <button class="nav-arrow prev d-none d-md-flex" type="button">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button class="nav-arrow next d-none d-md-flex" type="button">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+        <div class="row align-items-center min-vh-50 py-4">
+          <div class="col-lg-6 z-3 px-lg-5 text-center text-lg-start">
+            <span
+              class="text-uppercase tracking-wider text-muted fw-semibold small d-block mb-2"
+            >
+              WELCOME TO CHAIRY
+            </span>
+            <h1 class="display-4 fw-bold text-dark-blue mb-4 hero-title">
+              Best Furniture Collection For Your Interior
+            </h1>
+            <a href="#" class="btn btn-teal fw-semibold">
+              Shop Now <i class="fa-solid fa-arrow-right ms-2"></i>
+            </a>
+          </div>
+
+          <div class="col-lg-6 position-relative text-center mt-5 mt-lg-8">
+            <div class="hero-circle-bg"></div>
+
+            <div
+              class="discount-badge d-flex flex-column justify-content-center align-items-center"
+            >
+              <span class="fw-bold text-danger fs-4 lh-1">54%</span>
+              <span class="text-muted extra-small" style="font-size: 10px"
+                >Discount</span
+              >
+            </div>
+
+            <img
+              src="./Img/cdc7113b68039af7d7222a3d15eae2a39d068924 (2).png"
+              alt="Best Furniture Chair"
+              class="hero-chair-img"
+            />
+          </div>
+        </div>
+      </div>
+        <div class="features-bar p-4 mx-2 mx-md-5 shadow-lg position-relative">
+          <div class="row g-4 text-start">
+            <div class="col-6 col-md-3 d-flex align-items-center gap-3">
+              <i class="fa-solid fa-box-open fs-2 text-dark"></i>
+              <div>
+                <h6 class="fw-bold mb-0 text-dark">Discount</h6>
+                <small class="text-muted">Every week new sales</small>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 d-flex align-items-center gap-3">
+              <i class="fa-solid fa-truck-fast fs-2 text-dark"></i>
+              <div>
+                <h6 class="fw-bold mb-0 text-dark">Free Delivery</h6>
+                <small class="text-muted">100% Free for all orders</small>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 d-flex align-items-center gap-3">
+              <i class="fa-solid fa-rotate-left fs-2 text-dark"></i>
+              <div>
+                <h6 class="fw-bold mb-0 text-dark">Great Support 24/7</h6>
+                <small class="text-muted">We care your experiences</small>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 d-flex align-items-center gap-3">
+              <i class="fa-solid fa-shield-halved fs-2 text-dark"></i>
+              <div>
+                <h6 class="fw-bold mb-0 text-dark">Secure Payment</h6>
+                <small class="text-muted">100% Secure Payment Method</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-5 py-3">
+        <div
+          class="d-flex flex-wrap justify-content-between justify-content-md-around align-items-center gap-4 brand-row"
+        >
+          <img
+            src="./Img/e0035d056ad3c88d4b1a3fd03dfcde28119a604f.png"
+            alt="Zapier"
+            class="img-fluid brand-logo"
+          />
+          <img
+            src="./Img/ad054e766ecba134b5274ba3fd49187dd5fe9cc8.png"
+            alt="Pipedrive"
+            class="img-fluid brand-logo"
+          />
+          <img
+            src="./Img/16daf3088b9c3b477d787fd38a8b0505754f70ba.png"
+            alt="CIB Bank"
+            class="img-fluid brand-logo"
+          />
+          <img
+            src="./Img/95afe41b6a234b7ab7899f5ce91b9737a351e249.png"
+            alt="Z"
+            class="img-fluid brand-logo"
+          />
+          <img
+            src="./Img/427e6a38b9f21cabf9f278b8d278b378ad645ab1.png"
+            alt="Burnt Toast"
+            class="img-fluid brand-logo"
+          />
+          <img
+            src="./Img/e93de3d5c4ca4b2a87029abf68283a355c0d4a6c.png"
+            alt="PandaDoc"
+            class="img-fluid brand-logo"
+          />
+          <img
+            src="./Img/42ee325c8d4f3f8e36f3ac85a6e5dd1187b451a2.png"
+            alt="Moz"
+            class="img-fluid brand-logo"
+          />
+        </div>
+      </div>
+
+      <section class="py-5">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-3 section-heading">
+            <h2 class="fw-bold mb-0">Featured Products</h2>
+            <div>
+              <button class="btn btn-teal rounded-5 me-2" type="button">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <button class="btn btn-light rounded-5" type="button">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card border-0 h-100">
+                <div class="position-relative overflow-hidden rounded-3">
+                  <span
+                    class="badge bg-success position-absolute top-0 start-0 m-3 px-3 py-2"
+                    >New</span
+                  >
+                  <button
+                    class="btn btn-light rounded-circle position-absolute top-0 end-0 m-3 p-2 shadow-sm"
+                    type="button"
+                  >
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <img
+                    src="./Img/b120dd35afa230d9c7854e8904bff707a459d920.jpg"
+                    class="card-img-top rounded-3"
+                    alt="Library Stool Chair"
+                  />
+                </div>
+                <div
+                  class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+                >
+                  <div>
+                    <h5 class="card-title text-teal fs-6 mb-1">
+                      Library Stool Chair
+                    </h5>
+                    <p class="card-text fw-bold mb-0">$20</p>
+                  </div>
+                  <button class="btn btn-teal rounded-3 p-2" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card border-0 h-100">
+                <div class="position-relative overflow-hidden rounded-3">
+                  <span
+                    class="badge bg-warning position-absolute top-0 start-0 m-3 px-3 py-2 text-white"
+                    >Sales</span
+                  >
+                  <img
+                    src="./Img/096d6bf5080dc137a17c6a407cb7a13d1dcbf2a4.jpg"
+                    class="card-img-top rounded-3"
+                    alt="Library Stool Chair"
+                  />
+                </div>
+                <div
+                  class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+                >
+                  <div>
+                    <h5 class="card-title text-secondary fs-6 mb-1">
+                      Library Stool Chair
+                    </h5>
+                    <p class="card-text fw-bold mb-0">
+                      $20
+                      <span
+                        class="text-muted fw-normal text-decoration-line-through fs-7"
+                        >$39</span
+                      >
+                    </p>
+                  </div>
+                  <button class="btn btn-light rounded-3 p-2" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card border-0 h-100">
+                <div class="position-relative overflow-hidden rounded-3">
+                  <img
+                    src="./Img/e2223ac49ef838bf1b2e6eb27237306ca911c590.jpg"
+                    class="card-img-top rounded-3"
+                    alt="Library Stool Chair"
+                  />
+                </div>
+                <div
+                  class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+                >
+                  <div>
+                    <h5 class="card-title text-secondary fs-6 mb-1">
+                      Library Stool Chair
+                    </h5>
+                    <p class="card-text fw-bold mb-0">$20</p>
+                  </div>
+                  <button class="btn btn-light rounded-3 p-2" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card border-0 h-100">
+                <div class="position-relative overflow-hidden rounded-3">
+                  <img
+                    src="./Img/8ae829fe06cfc69d45f5c9a48462543f1816e9a3.jpg"
+                    class="card-img-top rounded-3"
+                    alt="Library Stool Chair"
+                  />
+                </div>
+                <div
+                  class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+                >
+                  <div>
+                    <h5 class="card-title text-secondary fs-6 mb-1">
+                      Library Stool Chair
+                    </h5>
+                    <p class="card-text fw-bold mb-0">$20</p>
+                  </div>
+                  <button class="btn btn-light rounded-3 p-2" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-3 section-heading">
+            <h2 class="fw-bold mb-0">Top Categories</h2>
+            <div>
+              <button class="btn btn-teal rounded-5 me-2" type="button">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <button class="btn btn-light rounded-5" type="button">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div
+                class="card border-0 rounded-4 overflow-hidden position-relative shadow-sm"
+              >
+                <img
+                  src="./Img/16fe2c5029cda46ce552fa79c00b7d3b3cd99a51.jpg"
+                  class="category-img card-img rounded-4"
+                  alt="Wing Chair"
+                />
+
+                <div
+                  class="card-img-overlay d-flex flex-column justify-content-end p-0"
+                >
+                  <div
+                    class="category-overlay text-white p-3 pt-4 rounded-bottom-4"
+                  >
+                    <h5 class="card-title fw-bold mb-1 fs-6">Wing Chair</h5>
+                    <p class="card-text text-white-50 small mb-0">
+                      3,584 Products
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div
+                class="card border-0 rounded-4 overflow-hidden position-relative shadow-sm"
+              >
+                <img
+                  src="./Img/df9cc5a65588ecf2173ee9d83f23f5a2d7dd1e51.jpg"
+                  class="category-img card-img rounded-4"
+                  alt="Wooden Chair"
+                />
+
+                <div
+                  class="card-img-overlay d-flex flex-column justify-content-end p-0"
+                >
+                  <div
+                    class="category-overlay text-white p-3 pt-4 rounded-bottom-4"
+                  >
+                    <h5 class="card-title fw-bold mb-1 fs-6">Wooden Chair</h5>
+                    <p class="card-text text-white-50 small mb-0">
+                      157 Products
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div
+                class="card border-0 rounded-4 overflow-hidden position-relative shadow-sm"
+              >
+                <img
+                  src="./Img/5133553384342faf113634d1989cad50b7dd5580.png"
+                  class="category-img card-img rounded-4"
+                  alt="Desk Chair"
+                />
+
+                <div
+                  class="card-img-overlay d-flex flex-column justify-content-end p-0"
+                >
+                  <div
+                    class="category-overlay text-white p-3 pt-4 rounded-bottom-4"
+                  >
+                    <h5 class="card-title fw-bold mb-1 fs-6">Desk Chair</h5>
+                    <p class="card-text text-white-50 small mb-0">
+                      154 Products
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container">
+          <h2 class="text-center fw-bold mb-4" style="color: #272343">
+            Our Products
+          </h2>
+
+          <ul class="nav justify-content-center filter-tabs mb-5 flex-wrap">
+            <li class="nav-item">
+              <button class="nav-link active" type="button">All</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" type="button">Newest</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" type="button">Trending</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" type="button">Best Sellers</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" type="button">Featured</button>
+            </li>
+          </ul>
+
+          <div class="row g-4">
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card border-0 h-100 product-card">
+                <div class="card-img-container">
+                  <span
+                    class="badge bg-success position-absolute top-0 start-0 m-3 px-3 py-2 z-3"
+                    >New</span
+                  >
+                  <button
+                    class="btn btn-light rounded-circle position-absolute top-0 end-0 m-3 p-2 shadow-sm"
+                    type="button"
+                  >
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <img
+                    src="./Img/b120dd35afa230d9c7854e8904bff707a459d920.jpg"
+                    class="product-img"
+                    alt="Library Stool Chair"
+                  />
+                </div>
+                <div
+                  class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+                >
+                  <div>
+                    <h5 class="card-title text-teal fs-6 mb-1">
+                      Library Stool Chair
+                    </h5>
+                    <p class="card-text fw-bold mb-0">$20</p>
+                  </div>
+                  <button class="btn btn-teal rounded-3 p-2" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card border-0 h-100 product-card">
+                <div class="card-img-container">
+                  <span
+                    class="badge bg-warning position-absolute top-0 start-0 m-3 px-3 py-2 text-white z-3"
+                    >Sales</span
+                  >
+                  <img
+                    src="./Img/096d6bf5080dc137a17c6a407cb7a13d1dcbf2a4.jpg"
+                    class="product-img"
+                    alt="Library Stool Chair"
+                  />
+                </div>
+                <div
+                  class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+                >
+                  <div>
+                    <h5 class="card-title text-secondary fs-6 mb-1">
+                      Library Stool Chair
+                    </h5>
+                    <p class="card-text fw-bold mb-0">
+                      $20
+                      <span
+                        class="text-muted fw-normal text-decoration-line-through fs-7"
+                        >$39</span
+                      >
+                    </p>
+                  </div>
+                  <button class="btn btn-light rounded-3 p-2" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card border-0 h-100 product-card">
+                <div class="card-img-container">
+                  <img
+                    src="./Img/e2223ac49ef838bf1b2e6eb27237306ca911c590.jpg"
+                    class="product-img"
+                    alt="Library Stool Chair"
+                  />
+                </div>
+                <div
+                  class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+                >
+                  <div>
+                    <h5 class="card-title text-secondary fs-6 mb-1">
+                      Library Stool Chair
+                    </h5>
+                    <p class="card-text fw-bold mb-0">$20</p>
+                  </div>
+                  <button class="btn btn-light rounded-3 p-2" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card border-0 h-100 product-card">
+                <div class="card-img-container">
+                  <img
+                    src="./Img/8ae829fe06cfc69d45f5c9a48462543f1816e9a3.jpg"
+                    class="product-img"
+                    alt="Library Stool Chair"
+                  />
+                </div>
+                <div
+                  class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+                >
+                  <div>
+                    <h5 class="card-title text-secondary fs-6 mb-1">
+                      Library Stool Chair
+                    </h5>
+                    <p class="card-text fw-bold mb-0">$20</p>
+                  </div>
+                  <button class="btn btn-light rounded-3 p-2" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card border-0 h-100 product-card">
+                <div class="card-img-container">
+                  <span
+                    class="badge bg-success position-absolute top-0 start-0 m-3 px-3 py-2 z-3"
+                    >New</span
+                  >
+                  <img
+                    src="./Img/16fe2c5029cda46ce552fa79c00b7d3b3cd99a51.jpg"
+                    class="product-img"
+                    alt="Library Stool Chair"
+                  />
+                </div>
+                <div
+                  class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+                >
+                  <div>
+                    <h5 class="card-title text-secondary fs-6 mb-1">
+                      Library Stool Chair
+                    </h5>
+                    <p class="card-text fw-bold mb-0">$20</p>
+                  </div>
+                  <button class="btn btn-light rounded-3 p-2" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card border-0 h-100 product-card">
+                <div class="card-img-container">
+                  <span
+                    class="badge bg-warning position-absolute top-0 start-0 m-3 px-3 py-2 text-white z-3"
+                    >Sales</span
+                  >
+                  <img
+                    src="./Img/df9cc5a65588ecf2173ee9d83f23f5a2d7dd1e51.jpg"
+                    class="product-img"
+                    alt="Library Stool Chair"
+                  />
+                </div>
+                <div
+                  class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+                >
+                  <div>
+                    <h5 class="card-title text-secondary fs-6 mb-1">
+                      Library Stool Chair
+                    </h5>
+                    <p class="card-text fw-bold mb-0">
+                      $20
+                      <span
+                        class="text-muted fw-normal text-decoration-line-through fs-7"
+                        >$39</span
+                      >
+                    </p>
+                  </div>
+                  <button class="btn btn-light rounded-3 p-2" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card border-0 h-100 product-card">
+                <div class="card-img-container">
+                  <img
+                    src="./Img/8b88947a31903acf7eec7cd336119f1ea0b4587b.jpg"
+                    class="product-img"
+                    alt="Library Stool Chair"
+                  />
+                </div>
+                <div
+                  class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+                >
+                  <div>
+                    <h5 class="card-title text-secondary fs-6 mb-1">
+                      Library Stool Chair
+                    </h5>
+                    <p class="card-text fw-bold mb-0">$20</p>
+                  </div>
+                  <button class="btn btn-light rounded-3 p-2" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="card border-0 h-100 product-card">
+                <div class="card-img-container">
+                  <img
+                    src="./Img/a50784793410e47eab61c559fa971045f11bb3a9.jpg"
+                    class="product-img"
+                    alt="Library Stool Chair"
+                  />
+                </div>
+                <div
+                  class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+                >
+                  <div>
+                    <h5 class="card-title text-secondary fs-6 mb-1">
+                      Library Stool Chair
+                    </h5>
+                    <p class="card-text fw-bold mb-0">$20</p>
+                  </div>
+                  <button class="btn btn-light rounded-3 p-2" type="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="bg-testimonials py-5">
+      <div class="container py-4">
+        <div class="d-flex justify-content-between align-items-center mb-5 flex-wrap gap-3 section-heading">
+          <h2 class="fw-bold mb-0" style="color: #272343">
+            What Client Says About Us
+          </h2>
+          <div>
+            <button class="btn btn-teal rounded-5 me-2" type="button">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="btn btn-light rounded-5" type="button">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-12 col-md-6">
+            <div
+              class="card border-0 rounded-4 p-4 shadow-sm h-100 position-relative bg-white"
+            >
+              <div class="testimonial-text mb-4">
+                "The quality of the furniture exceeded my expectations! The
+                design is sleek, modern, and fits perfectly in my living room.
+                Highly recommend Chairy for anyone looking for stylish home
+                decor."
+              </div>
+
+              <div class="d-flex align-items-center gap-3 mt-auto">
+                <img
+                  src="https://pixinvent.com/materialize-material-design-admin-template/app-assets/images/user/12.jpg"
+                  alt="Kristin Watson"
+                  class="rounded-circle"
+                  width="50"
+                  height="50"
+                  style="object-fit: cover"
+                />
+                <div>
+                  <h6 class="fw-bold mb-0" style="color: #272343">
+                    Kristin Watson
+                  </h6>
+                  <small class="text-muted">Fashion Designer</small>
+                </div>
+              </div>
+
+              <i class="fa-solid fa-quote-right quote-icon"></i>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div
+              class="card border-0 rounded-4 p-4 shadow-sm h-100 position-relative bg-white"
+            >
+              <div class="testimonial-text mb-4">
+                "Super fast delivery and top-notch customer support. The chair
+                is extremely comfortable and built with great materials. I will
+                definitely be ordering again!"
+              </div>
+
+              <div class="d-flex align-items-center gap-3 mt-auto">
+                <img
+                  src="https://cambridgesmiles.ca/wp-content/uploads/2016/10/dentalia-demo-deoctor-3-1-750x750-1.jpg"
+                  alt="Esther Howard"
+                  class="rounded-circle"
+                  width="50"
+                  height="50"
+                  style="object-fit: cover"
+                />
+                <div>
+                  <h6 class="fw-bold mb-0" style="color: #272343">
+                    Esther Howard
+                  </h6>
+                  <small class="text-muted">Fashion Designer</small>
+                </div>
+              </div>
+
+              <i class="fa-solid fa-quote-right quote-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container py-4">
+        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-3 section-heading">
+          <h2 class="fw-bold mb-0" style="color: #272343">Recently Added</h2>
+          <div>
+            <button class="btn btn-teal rounded-5 me-2" type="button">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="btn btn-light rounded-5" type="button">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card border-0 h-100 product-card">
+              <div class="card-img-container">
+                <span
+                  class="badge bg-success position-absolute top-0 start-0 m-3 px-3 py-2 z-3"
+                  >New</span
+                >
+                <button
+                  class="btn btn-light rounded-circle position-absolute top-0 end-0 m-3 p-2 shadow-sm z-3"
+                  type="button"
+                >
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <img
+                  src="https://images.thdstatic.com/productImages/3bbab756-1974-4b68-88e0-56599697d549/svn/light-honey-bali-pari-accent-chairs-250-13693-hd-64_600.jpg"
+                  class="product-img"
+                  alt="Library Stool Chair"
+                />
+              </div>
+              <div
+                class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+              >
+                <div>
+                  <h5 class="card-title text-teal fs-6 mb-1">
+                    Library Stool Chair
+                  </h5>
+                  <p class="card-text fw-bold mb-0">$20</p>
+                </div>
+                <button class="btn btn-teal rounded-3 p-2" type="button">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card border-0 h-100 product-card">
+              <div class="card-img-container">
+                <span
+                  class="badge bg-warning position-absolute top-0 start-0 m-3 px-3 py-2 text-white z-3"
+                  >Sales</span
+                >
+                <img
+                  src="https://img.koalaliving.com.au/products/127802/4f85f3a6-1dbd-475a-b178-1bc013fc94af.png"
+                  class="product-img"
+                  alt="Library Stool Chair"
+                />
+              </div>
+              <div
+                class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+              >
+                <div>
+                  <h5 class="card-title text-secondary fs-6 mb-1">
+                    Library Stool Chair
+                  </h5>
+                  <p class="card-text fw-bold mb-0">
+                    $20
+                    <span
+                      class="text-muted fw-normal text-decoration-line-through fs-7"
+                      >$39</span
+                    >
+                  </p>
+                </div>
+                <button class="btn btn-light rounded-3 p-2" type="button">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card border-0 h-100 product-card">
+              <div class="card-img-container">
+                <img
+                  src="https://st4.depositphotos.com/9880800/20129/i/450/depositphotos_201297928-stock-photo-selective-focus-wooden-beach-chair.jpg"
+                  class="product-img"
+                  alt="Library Stool Chair"
+                />
+              </div>
+              <div
+                class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+              >
+                <div>
+                  <h5 class="card-title text-secondary fs-6 mb-1">
+                    Library Stool Chair
+                  </h5>
+                  <p class="card-text fw-bold mb-0">$20</p>
+                </div>
+                <button class="btn btn-light rounded-3 p-2" type="button">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card border-0 h-100 product-card">
+              <div class="card-img-container">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTizFK2zPxywDhzg7cVQbQ3LLizThQz_ddOmKgAkrDOAnVQm5HI3w0D8AE&s=10"
+                  class="product-img"
+                  alt="Library Stool Chair"
+                />
+              </div>
+              <div
+                class="card-body px-0 pt-3 pb-0 d-flex justify-content-between align-items-end"
+              >
+                <div>
+                  <h5 class="card-title text-secondary fs-6 mb-1">
+                    Library Stool Chair
+                  </h5>
+                  <p class="card-text fw-bold mb-0">$20</p>
+                </div>
+                <button class="btn btn-light rounded-3 p-2" type="button">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer pt-5">
+      <div class="container pb-5">
+        <div class="row g-4">
+          <div class="col-12 col-lg-4 pe-lg-5">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i><img src="./Img/Logo Icon.svg" alt="Logo" /></i>
+              <span
+                class="fs-3 fw-bold text-dark"
+                style="color: #272343 !important"
+                >Comforty</span
+              >
+            </div>
+            <p class="small text-muted mb-4" style="line-height: 1.6">
+              Discover premium furniture and modern home decor designed to bring
+              comfort, elegance, and style to every space in your home.
+            </p>
+            <div class="d-flex gap-2 align-items-center">
+              <a href="#" class="social-icon-btn"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon-btn"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="#" class="social-icon-btn"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon-btn"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a href="#" class="social-icon-btn"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-2">
+            <h6 class="footer-title text-uppercase mb-3">Category</h6>
+            <ul
+              class="list-unstyled footer-links d-flex flex-column gap-2 mb-0"
+            >
+              <li><a href="#">Sofa</a></li>
+              <li><a href="#">Armchair</a></li>
+              <li><a href="#">Wing Chair</a></li>
+              <li><a href="#">Desk Chair</a></li>
+              <li><a href="#">wooden Chair</a></li>
+              <li><a href="#">Park Bench</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-2">
+            <h6 class="footer-title text-uppercase mb-3">Support</h6>
+            <ul
+              class="list-unstyled footer-links d-flex flex-column gap-2 mb-0"
+            >
+              <li><a href="#">Help & Support</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <h6 class="footer-title text-uppercase mb-3">Newsletter</h6>
+            <form class="d-flex gap-2 mb-3 flex-wrap" id="newsletterForm">
+              <input
+                type="email"
+                class="form-control rounded-3 py-2 px-3 border-light-subtle newsletter-input"
+                placeholder="Your email"
+                required
+              />
+              <button class="btn btn-subscribe text-nowrap" type="submit">
+                Subscribe
+              </button>
+            </form>
+            <p class="small text-muted mb-0" style="line-height: 1.5">
+              Subscribe to our newsletter to receive exclusive offers, latest
+              trends, and special discounts directly to your inbox.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom py-4">
+        <div
+          class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3"
+        >
+          <p class="mb-0 text-muted">
+            @ 2026 - Designed & Develop by
+            <span class="text-dark fw-semibold">Eng.Saif Khaled</span>
+          </p>
+          <div class="payment-icons d-flex align-items-center">
+            <img src="./Img/Logos.svg" alt="logos" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

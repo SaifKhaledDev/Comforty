@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  overflow-x: hidden;
+}
+.bg-navy {
+  background-color: #272343;
+}
+.text-teal {
+  color: #029fae;
+}
+.bg-teal {
+  background-color: #029fae;
+}
+.hero-section {
+  background-color: #f0f2f3;
+  border-radius: 0 0 24px 24px;
+}
+.brand-logo {
+  max-height: 38px;
+  width: auto;
+  object-fit: contain;
+
+  opacity: 0.65;
+  transition: all 0.3s ease;
+}
+.brand-logo:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.btn-teal {
+  background-color: #007580;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+.btn-teal:hover {
+  background-color: #005a63;
+  color: white;
+}
+
+.text-dark-blue {
+  color: #272343;
+}
+
+.bg-hero {
+  background-color: #eff2f3;
+  position: relative;
+  overflow: hidden;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.hero-flush {
+  border-radius: 0 0 24px 24px;
+}
+
+.hero-circle-bg {
+  position: absolute;
+  width: 747px;
+  height: 747px;
+  background-color: #e1e3e8; /* لون الدائرة خلف الكرسي */
+  border-radius: 50%;
+  top: 20px;
+  left: 250px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  right: 15%;
+  width: 75px;
+  height: 75px;
+  background: white;
+  border-radius: 50%;
+  z-index: 3;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.hero-chair-img {
+  position: relative;
+  z-index: 2;
+  max-width: 340px; /* تحديد أقصى عرض للصورة */
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.nav-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #029fae;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+}
+
+.nav-arrow.prev {
+  left: 20px;
+}
+.nav-arrow.next {
+  right: 20px;
+}
+
+.features-bar {
+  margin-top: -50px;
+  position: relative;
+  z-index: 5;
+  background: white;
+  border-radius: 10px;
+  height: 100px;
+}
+.text-teal {
+  color: #007580;
+}
+.fs-7 {
+  font-size: 0.85rem;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.category-img {
+  height: 380px;
+  object-fit: cover;
+}
+.card .position-relative {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover .position-relative {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.category-img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.category-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.4) 60%,
+    transparent 100%
+  );
+}
+.filter-tabs .nav-link {
+  color: #888888;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  border: none;
+  padding: 0 0 5px 0;
+  margin: 0 15px;
+  background: transparent;
+  text-transform: uppercase;
+}
+
+.filter-tabs .nav-link.active {
+  color: #272343;
+  border-bottom: 2px solid #007580;
+}
+
+.product-card .card-img-container {
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.product-card .product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-img {
+  transform: scale(1.03);
+}
+
+.btn-teal {
+  background-color: #007580;
+  color: white;
+}
+.btn-teal:hover {
+  background-color: #005a63;
+  color: white;
+}
+.text-teal {
+  color: #007580;
+}
+
+.bg-testimonials {
+  background-color: #f4f5f7 !important;
+}
+
+.testimonial-text {
+  border-left: 3px solid #007580;
+  padding-left: 20px;
+  color: #5f6368;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.quote-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  font-size: 3.5rem;
+  color: #e8e8e8;
+  line-height: 1;
+}
+
+.btn-teal {
+  background-color: #007580;
+  color: white;
+}
+.btn-teal:hover {
+  background-color: #005a63;
+  color: white;
+}
+.site-footer {
+  background-color: #ffffff;
+  border-top: 1px solid #e1e3e8;
+  color: #9a9caa;
+}
+
+.footer-title {
+  color: #9a9caa;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.footer-links a {
+  color: #272343;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover,
+.footer-links a.active {
+  color: #007580 !important;
+  text-decoration: underline;
+}
+
+.social-icon-btn {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #636270;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.social-icon-btn.active,
+.social-icon-btn:hover {
+  border-color: #007580;
+  color: #007580;
+}
+
+.btn-subscribe {
+  background-color: #007580;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-weight: 600;
+}
+
+.btn-subscribe:hover {
+  background-color: #005a63;
+  color: #ffffff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #e1e3e8;
+  font-size: 0.875rem;
+}
+
+.payment-icons i {
+  font-size: 1.8rem;
+  color: #8c8f9a;
+  margin-left: 12px;
+}
+
+/* =========================================================
+   RESPONSIVE ENHANCEMENTS
+   Everything below adapts the layout above for tablet/mobile
+   without changing the desktop look.
+========================================================= */
+
+/* ---- Top bar ---- */
+.top-bar-inner {
+  row-gap: 4px;
+}
+.top-bar-links {
+  flex-wrap: wrap;
+}
+
+/* ---- Header (logo / search / cart) ---- */
+.header-inner {
+  row-gap: 12px;
+}
+.header-search {
+  width: 400px;
+  max-width: 100%;
+  flex: 1 1 260px;
+}
+
+/* ---- Main nav ---- */
+.main-nav-left {
+  width: 100%;
+}
+@media (max-width: 991.98px) {
+  .main-nav-left {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-links-list {
+    padding: 12px 4px 4px;
+  }
+}
+@media (min-width: 992px) {
+  #mainCategoryNav {
+    display: flex !important;
+  }
+}
+
+/* ---- Hero section ---- */
+.hero-title {
+  font-size: clamp(1.75rem, 4vw + 0.5rem, 3.5rem);
+}
+
+@media (max-width: 991.98px) {
+  .hero-circle-bg {
+    width: 480px;
+    height: 480px;
+    top: 10px;
+    left: 50%;
+  }
+  .discount-badge {
+    right: 10%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-circle-bg {
+    width: 320px;
+    height: 320px;
+    top: -10px;
+    left: 50%;
+  }
+  .hero-chair-img {
+    max-width: 240px;
+  }
+  .discount-badge {
+    width: 60px;
+    height: 60px;
+    right: 8%;
+    top: 0;
+  }
+  .nav-arrow {
+    display: none !important;
+  }
+}
+
+/* ---- Features bar ---- */
+@media (max-width: 767.98px) {
+  .features-bar {
+    height: auto;
+    margin-top: -30px;
+  }
+  .features-bar .row > div {
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 420px) {
+  .features-bar h6 {
+    font-size: 0.9rem;
+  }
+  .features-bar small {
+    font-size: 0.75rem;
+  }
+}
+
+/* ---- Brand logos row ---- */
+.brand-row {
+  row-gap: 20px;
+}
+.brand-logo {
+  max-height: 30px;
+}
+@media (min-width: 576px) {
+  .brand-logo {
+    max-height: 38px;
+  }
+}
+
+/* ---- Section headings ---- */
+.section-heading h2 {
+  font-size: clamp(1.25rem, 2vw + 0.75rem, 2rem);
+}
+
+/* ---- Product / category image heights scale down on smaller screens ---- */
+@media (max-width: 991.98px) {
+  .category-img {
+    height: 320px;
+  }
+  .card-img-top {
+    height: 260px;
+  }
+  .product-card .card-img-container {
+    height: 240px;
+  }
+}
+@media (max-width: 575.98px) {
+  .category-img {
+    height: 260px;
+  }
+  .card-img-top {
+    height: 220px;
+  }
+  .product-card .card-img-container {
+    height: 200px;
+  }
+}
+
+/* ---- Filter tabs wrap nicely on small screens ---- */
+@media (max-width: 575.98px) {
+  .filter-tabs .nav-link {
+    margin: 0 8px 8px;
+    font-size: 0.75rem;
+  }
+}
+
+/* ---- Newsletter form ---- */
+.newsletter-input {
+  flex: 1 1 200px;
+  min-width: 0;
+}
+
+/* ---- Footer payment icons wrap ---- */
+@media (max-width: 575.98px) {
+  .payment-icons {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-circle-bg {
+    width: 380px;
+    height: 380px;
+    top: -30px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
